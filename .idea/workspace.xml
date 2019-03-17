@@ -1,0 +1,799 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ac22c0b7-b99b-4620-8b5c-325691ff3009" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crazyflie_demo/routes/swarm_route_test.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crazyflie_controller/config/crazyflie2.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/crazyflie_controller/config/crazyflie2.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crazyflie_controller/src/controller.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/crazyflie_controller/src/controller.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crazyflie_controller/src/pid.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/crazyflie_controller/src/pid.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crazyflie_demo/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/crazyflie_demo/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crazyflie_demo/launch/crazyflie_pos.rviz" beforeDir="false" afterPath="$PROJECT_DIR$/crazyflie_demo/launch/crazyflie_pos.rviz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crazyflie_demo/launch/external_position_vrpn.launch" beforeDir="false" afterPath="$PROJECT_DIR$/crazyflie_demo/launch/external_position_vrpn.launch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crazyflie_demo/launch/hover.launch" beforeDir="false" afterPath="$PROJECT_DIR$/crazyflie_demo/launch/hover.launch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crazyflie_demo/launch/hover_vicon.launch" beforeDir="false" afterPath="$PROJECT_DIR$/crazyflie_demo/launch/hover_vicon.launch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crazyflie_demo/launch/hover_vrpn.launch" beforeDir="false" afterPath="$PROJECT_DIR$/crazyflie_demo/launch/hover_vrpn.launch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crazyflie_demo/launch/multi_hover_vicon.launch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crazyflie_demo/launch/position.launch" beforeDir="false" afterPath="$PROJECT_DIR$/crazyflie_demo/launch/position.launch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crazyflie_demo/launch/swarm_external_position_vrpn.launch" beforeDir="false" afterPath="$PROJECT_DIR$/crazyflie_demo/launch/swarm_external_position_vrpn.launch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crazyflie_demo/launch/teleop_xbox360.launch" beforeDir="false" afterPath="$PROJECT_DIR$/crazyflie_demo/launch/teleop_xbox360.launch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crazyflie_demo/package.xml" beforeDir="false" afterPath="$PROJECT_DIR$/crazyflie_demo/package.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crazyflie_demo/scripts/Hover.py" beforeDir="false" afterPath="$PROJECT_DIR$/crazyflie_demo/scripts/Hover.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crazyflie_demo/scripts/Position.py" beforeDir="false" afterPath="$PROJECT_DIR$/crazyflie_demo/scripts/Position.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crazyflie_demo/scripts/controller.py" beforeDir="false" afterPath="$PROJECT_DIR$/crazyflie_demo/scripts/controller.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crazyflie_demo/scripts/demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/crazyflie_demo/scripts/demo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crazyflie_demo/scripts/publish_external_position_vrpn.py" beforeDir="false" afterPath="$PROJECT_DIR$/crazyflie_demo/scripts/publish_external_position_vrpn.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crazyflie_demo/scripts/publish_pose.py" beforeDir="false" afterPath="$PROJECT_DIR$/crazyflie_demo/scripts/publish_pose.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crazyflie_demo/scripts/test_high_level.py" beforeDir="false" afterPath="$PROJECT_DIR$/crazyflie_demo/scripts/test_high_level.py" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Desktop/Link to crazyflie_demo/launch/hover_logging_light.launch">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="10" column="49" selection-start-line="10" selection-start-column="49" selection-end-line="10" selection-end-column="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Desktop/Link to crazyflie_demo/scripts/Hover_orig.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="779">
+              <caret line="46" column="34" selection-start-line="46" selection-start-column="34" selection-end-line="46" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/crazyflie_demo/scripts/test_high_level.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="623">
+              <caret line="146" column="129" selection-start-line="146" selection-start-column="129" selection-end-line="146" selection-end-column="129" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Desktop/Link to crazyflie_demo/scripts/array_broadcaster.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1254">
+              <caret line="78" column="50" selection-start-line="78" selection-start-column="50" selection-end-line="78" selection-end-column="50" />
+              <folding>
+                <element signature="e#23#35#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Desktop/Link to crazyflie_demo/scripts/array_broadcaster_rotem.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1046">
+              <caret line="51" column="29" lean-forward="true" selection-start-line="51" selection-start-column="29" selection-end-line="51" selection-end-column="29" />
+              <folding>
+                <element signature="e#23#35#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Desktop/Link to crazyflie_demo/scripts/publish_point.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="4" column="40" selection-start-line="4" selection-end-line="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/crazyflie_demo/scripts/tf_broadcaster.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="665">
+              <caret line="35" column="21" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="21" />
+              <folding>
+                <element signature="e#23#35#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Desktop/Link to crazyflie_demo/launch/logging_wc.launch">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="684">
+              <caret line="36" selection-start-line="36" selection-end-line="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/crazyflie_demo/scripts/hl_traj_arg.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="722">
+              <caret line="55" column="41" selection-start-line="55" selection-start-column="41" selection-end-line="55" selection-end-column="41" />
+              <folding>
+                <element signature="e#161#243#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/crazyflie_demo/scripts/hl_traj.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="34" column="69" selection-start-line="34" selection-start-column="69" selection-end-line="34" selection-end-column="69" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>log</find>
+      <find>prin</find>
+      <find>tf2</find>
+      <find>logi</find>
+      <find>takeo</find>
+      <find>keyp</find>
+      <find>print</find>
+      <find>stop</find>
+      <find>setpa</find>
+      <find>takeoff</find>
+      <find>none</find>
+      <find>for</find>
+      <find>prefix</find>
+      <find>cf1</find>
+      <find>land</find>
+      <find>cf2</find>
+      <find>crazyflie</find>
+      <find>world</find>
+      <find>controll</find>
+      <find>wor</find>
+      <find>l</find>
+      <find>point_front</find>
+      <find>initi</find>
+      <find>rospy.t</find>
+      <find>tfbuffer</find>
+      <find>take</find>
+      <find>back</find>
+      <find>right</find>
+      <find>front</find>
+      <find>yaw</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>cf2</replace>
+      <replace>cf3</replace>
+      <replace>cf4</replace>
+      <replace>point_back</replace>
+      <replace>point_left</replace>
+      <replace>point_right</replace>
+      <replace>back</replace>
+      <replace>right</replace>
+      <replace>left</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/crazyflie_demo/routes/swarm_route_test.csv" />
+        <option value="$PROJECT_DIR$/crazyflie_demo/scripts/utils/csv_route_reader.py" />
+        <option value="$PROJECT_DIR$/crazyflie_demo/scripts/dynamic_route.py" />
+        <option value="$PROJECT_DIR$/crazyflie_demo/scripts/utils/bag_to_csv.py" />
+        <option value="$PROJECT_DIR$/crazyflie_demo/scripts/publish_point.py" />
+        <option value="$PROJECT_DIR$/crazyflie_demo/scripts/tf_broadcaster.py" />
+        <option value="$PROJECT_DIR$/crazyflie_demo/scripts/Hover_orig.py" />
+        <option value="$PROJECT_DIR$/crazyflie_demo/package.xml" />
+        <option value="$PROJECT_DIR$/crazyflie_demo/scripts/stdin_test.py" />
+        <option value="$PROJECT_DIR$/crazyflie_demo/scripts/Hover_keyboard.py" />
+        <option value="$PROJECT_DIR$/crazyflie_demo/launch/hover_logging_state.launch" />
+        <option value="$PROJECT_DIR$/crazyflie_demo/launch/hover_keyboard.launch" />
+        <option value="$PROJECT_DIR$/crazyflie_demo/scripts/array_broadcaster.py" />
+        <option value="$PROJECT_DIR$/crazyflie_demo/scripts/array_broadcaster_mapping.py" />
+        <option value="$PROJECT_DIR$/crazyflie_demo/scripts/hover_override.py" />
+        <option value="$PROJECT_DIR$/crazyflie_demo/scripts/hl_traj2.py" />
+        <option value="$PROJECT_DIR$/crazyflie_demo/launch/hl_traj2.launch" />
+        <option value="$PROJECT_DIR$/crazyflie_demo/scripts/hl_traj4.py" />
+        <option value="$PROJECT_DIR$/crazyflie_demo/scripts/hl_traj2a.py" />
+        <option value="$PROJECT_DIR$/crazyflie_demo/launch/hl_traj4.launch" />
+        <option value="$PROJECT_DIR$/crazyflie_demo/launch/hl_traj_arg.launch" />
+        <option value="$PROJECT_DIR$/crazyflie_demo/scripts/polyfit.py" />
+        <option value="$PROJECT_DIR$/crazyflie_demo/scripts/polyfit_sine.py" />
+        <option value="$PROJECT_DIR$/crazyflie_demo/launch/hl_traj.launch" />
+        <option value="$PROJECT_DIR$/crazyflie_demo/launch/hl_controller.launch" />
+        <option value="$PROJECT_DIR$/crazyflie_demo/scripts/crazyflie.py" />
+        <option value="$PROJECT_DIR$/crazyflie_demo/scripts/explorer_external.py" />
+        <option value="$PROJECT_DIR$/crazyflie_demo/launch/swarm_external_position_vrpn.launch" />
+        <option value="$PROJECT_DIR$/crazyflie_demo/scripts/hl_traj.py" />
+        <option value="$PROJECT_DIR$/crazyflie_demo/scripts/hl_traj_arg.py" />
+        <option value="$PROJECT_DIR$/crazyflie_demo/launch/hover_vrpn.launch" />
+        <option value="$PROJECT_DIR$/crazyflie_demo/scripts/Hover.py" />
+        <option value="$PROJECT_DIR$/crazyflie_demo/scripts/publish_external_position_vrpn.py" />
+        <option value="$PROJECT_DIR$/crazyflie_demo/launch/hl_traj_4.launch" />
+        <option value="$PROJECT_DIR$/crazyflie_demo/launch/external_position_vrpn.launch" />
+        <option value="$USER_HOME$/Desktop/Link to crazyflie_demo/scripts/tf_broadcaster.py" />
+        <option value="$USER_HOME$/Desktop/Link to crazyflie_demo/launch/hover_logging_light.launch" />
+        <option value="$USER_HOME$/Desktop/Link to crazyflie_demo/scripts/Hover_orig.py" />
+        <option value="$USER_HOME$/Desktop/Link to crazyflie_demo/scripts/array_broadcaster.py" />
+        <option value="$USER_HOME$/Desktop/Link to crazyflie_demo/scripts/publish_point.py" />
+        <option value="$USER_HOME$/Desktop/Link to crazyflie_demo/scripts/array_broadcaster_rotem.py" />
+        <option value="$PROJECT_DIR$/crazyflie_demo/scripts/test_high_level.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="65" />
+    <option name="y" value="341" />
+    <option name="width" value="1853" />
+    <option name="height" value="676" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="crazyflie_ros" type="b2602c69:ProjectViewProjectNode" />
+              <item name="crazyflie_ros" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="crazyflie_ros" type="b2602c69:ProjectViewProjectNode" />
+              <item name="crazyflie_ros" type="462c0819:PsiDirectoryNode" />
+              <item name="crazyflie_demo" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$USER_HOME$/crazyswarm" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.basicparam_backup">
+    <configuration name="basiclogSync" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="crazyflie_ros" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/crazyflie-lib-python/examples" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$USER_HOME$/crazyflie-lib-python/examples/basiclogSync.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="basicparam_backup" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="crazyflie_ros" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/crazyflie-lib-python/examples" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$USER_HOME$/crazyflie-lib-python/examples/basicparam_backup.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="dynamic_route" type="PythonConfigurationType" factoryName="Python">
+      <module name="crazyflie_ros" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/crazyflie_demo/scripts" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/crazyflie_demo/scripts/dynamic_route.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="polyfit" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="crazyflie_ros" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/crazyflie_demo/scripts" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/crazyflie_demo/scripts/polyfit.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="polyfit_sine" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="crazyflie_ros" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/crazyflie_demo/scripts" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/crazyflie_demo/scripts/polyfit_sine.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="stdin_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="crazyflie_ros" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/crazyflie_demo/scripts" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/crazyflie_demo/scripts/stdin_test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.dynamic_route" />
+      <item itemvalue="Python.basiclogSync" />
+      <item itemvalue="Python.stdin_test" />
+      <item itemvalue="Python.polyfit" />
+      <item itemvalue="Python.polyfit_sine" />
+      <item itemvalue="Python.basicparam_backup" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.basicparam_backup" />
+        <item itemvalue="Python.polyfit_sine" />
+        <item itemvalue="Python.polyfit" />
+        <item itemvalue="Python.stdin_test" />
+        <item itemvalue="Python.basiclogSync" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ac22c0b7-b99b-4620-8b5c-325691ff3009" name="Default Changelist" comment="" />
+      <created>1545900758218</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1545900758218</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="64" y="-11" width="1857" height="1092" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.05458515" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3291536" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3291536" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39916405" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.3291536" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.24764891" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.3291536" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/crazyflie_demo/scripts/utils/csv_route_reader.py</url>
+          <line>27</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/crazyflie_demo/scripts/bag_to_csv.py" />
+    <entry file="file://$PROJECT_DIR$/crazyflie_demo/scripts/publish_point.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="50" />
+          <folding>
+            <element signature="e#23#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crazyflie_demo/package.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="44" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/crazyflie-lib-python/examples/check_battery.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
+          <folding>
+            <element signature="e#1302#1316#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crazyflie_demo/scripts/keyboard_controller.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1377">
+          <caret line="84" column="19" selection-start-line="84" selection-start-column="19" selection-end-line="84" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crazyflie_demo/scripts/stdin_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+          <folding>
+            <element signature="e#46#128#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crazyflie_demo/scripts/my_hl_controller.py" />
+    <entry file="file://$PROJECT_DIR$/crazyflie_demo/scripts/Hover_orig.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1445">
+          <caret line="90" column="6" selection-start-line="90" selection-start-column="6" selection-end-line="93" selection-end-column="23" />
+          <folding>
+            <element signature="e#23#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crazyflie_demo/launch/hover_logging_state.launch">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="34" selection-start-line="26" selection-start-column="34" selection-end-line="26" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crazyflie_demo/scripts/array_broadcaster.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+          <folding>
+            <element signature="e#23#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crazyflie_demo/scripts/array_broadcaster_mapping.py" />
+    <entry file="file://$PROJECT_DIR$/crazyflie_demo/scripts/Hover_keyboard.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="150" column="8" selection-start-line="150" selection-start-column="8" selection-end-line="150" selection-end-column="46" />
+          <folding>
+            <element signature="e#23#105#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crazyflie_demo/launch/hl_traj2.launch" />
+    <entry file="file://$PROJECT_DIR$/crazyflie_demo/scripts/hover_override.py" />
+    <entry file="file://$PROJECT_DIR$/crazyflie_demo/scripts/hl_traj4.py" />
+    <entry file="file://$PROJECT_DIR$/crazyflie_demo/scripts/hl_traj2.py" />
+    <entry file="file://$PROJECT_DIR$/crazyflie_demo/scripts/hl_traj2a.py" />
+    <entry file="file://$PROJECT_DIR$/crazyflie_demo/launch/hl_traj4.launch" />
+    <entry file="file://$PROJECT_DIR$/crazyflie_demo/launch/hl_traj_arg.launch" />
+    <entry file="file://$PROJECT_DIR$/crazyflie_demo/launch/hover_keyboard.launch">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="25" column="47" selection-start-line="25" selection-start-column="47" selection-end-line="25" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/crazyflie-lib-python/examples/basicparam_backup.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="22" lean-forward="true" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crazyflie_demo/launch/hl_controller.launch">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="57" selection-start-line="3" selection-start-column="57" selection-end-line="3" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crazyflie_demo/scripts/utils/bag_to_csv.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="31" column="47" selection-start-line="31" selection-start-column="47" selection-end-line="31" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crazyflie_demo/scripts/explorer_external.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3268">
+          <caret line="187" column="18" selection-start-line="187" selection-start-column="18" selection-end-line="187" selection-end-column="18" />
+          <folding>
+            <element signature="e#161#243#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crazyflie_demo/scripts/polyfit_sine.py" />
+    <entry file="file://$PROJECT_DIR$/crazyflie_demo/scripts/polyfit.py" />
+    <entry file="file://$PROJECT_DIR$/crazyflie_demo/launch/hl_traj.launch">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" column="17" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crazyflie_demo/launch/swarm_external_position_vrpn.launch">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="34" selection-start-line="34" selection-end-line="36" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crazyflie_demo/scripts/publish_external_position_vrpn.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="20" column="74" selection-start-line="20" selection-start-column="74" selection-end-line="20" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crazyflie_demo/scripts/crazyflie.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="11" column="35" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
+          <folding>
+            <element signature="e#23#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crazyflie_demo/launch/hover_vrpn.launch">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="26" column="64" selection-start-line="26" selection-start-column="49" selection-end-line="26" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crazyflie_demo/scripts/publish_pose.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../vrpn_client_ros/launch/sample.launch">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="8" selection-start-column="8" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crazyflie_demo/scripts/Hover.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2128">
+          <caret line="117" selection-start-line="117" selection-end-line="117" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crazyflie_demo/launch/external_position_vrpn.launch">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="24" column="72" selection-start-line="24" selection-start-column="72" selection-end-line="24" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/Link to crazyflie_demo/scripts/test_high_level.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="39" column="7" selection-start-line="39" selection-start-column="7" selection-end-line="39" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/Link to crazyflie_demo/scripts/tf_broadcaster.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="13" column="3" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/Link to crazyflie_demo/scripts/explorer_external.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="21" column="12" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crazyflie_demo/launch/hl_traj_4.launch">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" column="59" selection-start-line="21" selection-start-column="59" selection-end-line="21" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/Link to crazyflie_demo/launch/hl_controller.launch">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" column="41" lean-forward="true" selection-start-line="21" selection-start-column="41" selection-end-line="21" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/Link to crazyflie_demo/launch/hover_logging_state.launch">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="63" selection-start-line="14" selection-start-column="63" selection-end-line="14" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/Link to crazyflie_demo/scripts/Hover_orig.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="779">
+          <caret line="46" column="34" selection-start-line="46" selection-start-column="34" selection-end-line="46" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/Link to crazyflie_demo/launch/logging_wc.launch">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="684">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crazyflie_demo/scripts/hl_traj_arg.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="722">
+          <caret line="55" column="41" selection-start-line="55" selection-start-column="41" selection-end-line="55" selection-end-column="41" />
+          <folding>
+            <element signature="e#161#243#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crazyflie_demo/scripts/hl_traj.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="34" column="69" selection-start-line="34" selection-start-column="69" selection-end-line="34" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/Link to crazyflie_demo/launch/hover_logging_light.launch">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="49" selection-start-line="10" selection-start-column="49" selection-end-line="10" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crazyflie_demo/scripts/tf_broadcaster.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="665">
+          <caret line="35" column="21" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="21" />
+          <folding>
+            <element signature="e#23#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/Link to crazyflie_demo/scripts/array_broadcaster.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1254">
+          <caret line="78" column="50" selection-start-line="78" selection-start-column="50" selection-end-line="78" selection-end-column="50" />
+          <folding>
+            <element signature="e#23#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/Link to crazyflie_demo/scripts/publish_point.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="40" selection-start-line="4" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/Link to crazyflie_demo/scripts/array_broadcaster_rotem.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1046">
+          <caret line="51" column="29" lean-forward="true" selection-start-line="51" selection-start-column="29" selection-end-line="51" selection-end-column="29" />
+          <folding>
+            <element signature="e#23#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crazyflie_demo/scripts/test_high_level.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="623">
+          <caret line="146" column="129" selection-start-line="146" selection-start-column="129" selection-end-line="146" selection-end-column="129" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
