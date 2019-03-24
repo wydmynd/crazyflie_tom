@@ -55,7 +55,7 @@ def handler(cf):
 
     r=rospy.Rate(5)
     time.sleep(1)
-    cf.takeoff(targetHeight = initialZ, duration = 5.0)
+    #cf.takeoff(targetHeight = initialZ, duration = 5.0)
     time.sleep(5.0)
 
     x, y, yaw = 0, 0, 0

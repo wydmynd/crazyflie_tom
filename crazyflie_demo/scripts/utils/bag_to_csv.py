@@ -33,7 +33,7 @@ elif (len(sys.argv) == 1):
 	for f in listOfBagFiles:
 		print f
 	print "\n press ctrl+c in the next 10 seconds to cancel \n"
-	time.sleep(10)
+	time.sleep(5)
 else:
 	print "bad argument(s): " + str(sys.argv)	#shouldnt really come up
 	sys.exit(1)

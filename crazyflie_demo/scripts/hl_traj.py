@@ -30,9 +30,9 @@ if __name__ == '__main__':
     cf.setParam("commander/enHighLevel", 1)
     cf.setParam("stabilizer/estimator", 2) # Use EKF
 
-    cf.setParam("ctrlMel/kp_z", 0.7)  # reduce z wobble - default 1.25
-    cf.setParam("ctrlMel/ki_z", 0.06)  # reduce z wobble - default 0.05
-    cf.setParam("ctrlMel/kd_z", 0.2)  # reduce z wobble - default 0.4
+    cf.setParam("ctrlMel/kp_z", 1.0)  # reduce z wobble - default 1.25
+    #cf.setParam("ctrlMel/ki_z", 0.06)  # reduce z wobble - default 0.05
+    #cf.setParam("ctrlMel/kd_z", 0.2)  # reduce z wobble - default 0.4
 
     ## reset kalman
     cf.setParam("kalman/initialX", 0)
