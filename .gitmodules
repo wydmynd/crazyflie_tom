@@ -4,3 +4,6 @@
 [submodule "crazyflie_tools"]
 	path = crazyflie_tools
 	url = https://github.com/whoenig/crazyflie_tools
+[submodule "Indoor"]
+	path = crazyflie_demo/scripts/Indoor
+	url = https://github.com/sahbak/Indoor

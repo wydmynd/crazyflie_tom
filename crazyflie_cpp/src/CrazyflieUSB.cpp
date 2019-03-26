@@ -71,13 +71,14 @@ void CrazyflieUSB::sendPacket(
         (unsigned char*)&result.data[0],
         sizeof(result) - 2,
         &transferred,
-        /*timeout*/ 1000);
-    if (status != LIBUSB_SUCCESS) {
+        /*timeout*/ 1);
+    if (status != LIBUSB_SUCCESS && status != LIBUSB_ERROR_TIMEOUT) {
         throw std::runtime_error(libusb_error_name(status));
     }
-    result.ack = true;
-
-    result.size = transferred;
+    if (status == LIBUSB_SUCCESS) {
+        result.ack = true;
+        result.size = transferred;
+    }
 }
 
 void CrazyflieUSB::sendPacketNoAck(

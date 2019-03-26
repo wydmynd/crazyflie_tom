@@ -107,6 +107,8 @@ public:
   Crazyflie(
     const std::string& link_uri,
     Logger& logger = EmptyLogger);
+  
+  virtual ~Crazyflie();
 
   void logReset();
 
