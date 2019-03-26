@@ -105,8 +105,6 @@ def get_ranges(msg):
     seq += 1
 
 
-
-
 if __name__ == '__main__':
     rospy.init_node('publish_point', anonymous=False)
     pub_front = rospy.Publisher('/cf1/points/front', PointStamped, queue_size=1)
@@ -119,9 +117,6 @@ if __name__ == '__main__':
     pub_left_WC = rospy.Publisher('/cf1/points/left_WC', PointStamped, queue_size=1)
     pub_right_WC = rospy.Publisher('/cf1/points/right_WC', PointStamped, queue_size=1)
 
-
-
-
     rospy.Subscriber('/cf1/log_ranges', GenericLogData, get_ranges)
     prev_front=prev_back=prev_left=prev_right = 0
     seq = 0
@@ -129,11 +124,4 @@ if __name__ == '__main__':
     tfBuffer = tf2_ros.Buffer()
     listener = tf2_ros.TransformListener(tfBuffer)
 
-
-
-
     rospy.spin()
-
-
-
-

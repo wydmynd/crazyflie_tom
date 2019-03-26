@@ -55,7 +55,7 @@ def handler(cf):
 
     r=rospy.Rate(5)
     time.sleep(1)
-    #cf.takeoff(targetHeight = initialZ, duration = 5.0)
+    cf.takeoff(targetHeight = initialZ, duration = 5.0)
     time.sleep(5.0)
 
     x, y, yaw = 0, 0, 0
@@ -141,10 +141,10 @@ def handler(cf):
                     cf.goTo(goal=[0.0, 0.0, -0.05], yaw=0, duration=def_duration, relative=True)
                 elif key == 'q':
                     # 45 degrees CW
-                    cf.goTo(goal=[0.0, 0.0, 0.0], yaw=1.5708, duration=def_duration+0.5, relative=True) #slow down yaw rotation
+                    cf.goTo(goal=[0.0, 0.0, 0.0], yaw=1.5708, duration=def_duration+1.0, relative=True) #slow down yaw rotation
                 elif key == 'e':
                     # 45 degrees CCW
-                    cf.goTo(goal=[0.0, 0.0, 0.0], yaw= -1.5708, duration=def_duration+0.5, relative=True) #slow down yaw rotation
+                    cf.goTo(goal=[0.0, 0.0, 0.0], yaw= -1.5708, duration=def_duration+1.0, relative=True) #slow down yaw rotation
                 #elif key == 's':
                     # stop
 

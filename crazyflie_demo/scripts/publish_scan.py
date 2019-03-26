@@ -77,7 +77,7 @@ def get_ranges(msg):
 
     if (left != prev_left):
 
-        scan.ranges[1]=left
+        scan.ranges[3]=left
 
         point_left = PointStamped()
         point_left.header.seq = seq
@@ -97,7 +97,7 @@ def get_ranges(msg):
 
     if (right != prev_right):
 
-        scan.ranges[3]=right
+        scan.ranges[1]=right
 
         point_right = PointStamped()
         point_right.header.seq = seq
@@ -150,7 +150,7 @@ if __name__ == '__main__':
     scan.header.frame_id = 'cf1'
     scan.angle_min = -pi
     scan.angle_max = pi
-    scan.angle_increment = pi / num_readings
+    scan.angle_increment = 2*pi / num_readings
     scan.time_increment = (1.0 / laser_frequency) / (num_readings)
     scan.range_min = 0.0
     scan.range_max = 4.0
