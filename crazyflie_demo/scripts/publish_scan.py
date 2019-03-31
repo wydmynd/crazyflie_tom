@@ -7,15 +7,18 @@ from crazyflie_driver.msg import GenericLogData
 import tf_conversions
 import tf2_ros
 import tf2_geometry_msgs
-from sensor_msgs.msg import LaserScan
+from sensor_msgs.msg import PointCloud2 , LaserScan
+import sensor_msgs.point_cloud2 as pc2
+
 from time import sleep
 from math import pi
+
+import laser_geometry.laser_geometry as lg
 
 def get_ranges(msg):
 
     global pub_front , pub_back , pub_left, pub_right, seq
     global prev_front , prev_back , prev_left, prev_right
-    global pub_front_WC
     global tfBuffer , listener
 
     front = msg.values[0]/1000
@@ -23,8 +26,8 @@ def get_ranges(msg):
     left = msg.values[3]/1000
     right = msg.values[4]/1000
 
-    inf=float('inf')
-    # scan.ranges = [inf,inf,inf,inf]
+    #inf=float('inf')
+    # scan.ranges = [inf,inf,inf,inf] #TODO - fix error with inf values
     scan.ranges = [0,0,0,0]
 
     transform=None
@@ -118,6 +121,12 @@ def get_ranges(msg):
     scan.header.stamp = rospy.Time.now()
     scan_pub.publish(scan)
 
+    # convert the message of type LaserScan to a PointCloud2
+    pc2_msg = lp.projectLaser(scan)
+
+    # publish it
+    pc2_pub.publish(pc2_msg)
+
     seq += 1
 
 
@@ -136,6 +145,7 @@ if __name__ == '__main__':
     pub_right_WC = rospy.Publisher('/cf1/points/right_WC', PointStamped, queue_size=1)
 
     scan_pub = rospy.Publisher('scan', LaserScan, queue_size=2)
+    pc2_pub = rospy.Publisher("point_cloud", PointCloud2, queue_size=1)
 
     rospy.Subscriber('/cf1/log_ranges', GenericLogData, get_ranges)
     prev_front=prev_back=prev_left=prev_right = 0
@@ -143,6 +153,8 @@ if __name__ == '__main__':
 
     tfBuffer = tf2_ros.Buffer()
     listener = tf2_ros.TransformListener(tfBuffer)
+
+    lp = lg.LaserProjection()
 
     scan = LaserScan()
     num_readings = 4
@@ -153,7 +165,7 @@ if __name__ == '__main__':
     scan.angle_increment = 2*pi / num_readings
     scan.time_increment = (1.0 / laser_frequency) / (num_readings)
     scan.range_min = 0.0
-    scan.range_max = 4.0
+    scan.range_max = 3.5
 
     rospy.spin()
 
