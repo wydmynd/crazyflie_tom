@@ -19,16 +19,16 @@ def get_ranges(msg):
 
     global pub_front , pub_back , pub_left, pub_right, seq
     global prev_front , prev_back , prev_left, prev_right
-    global tfBuffer , listener
+    global tfBuffer , listener , scan
 
     front = msg.values[0]/1000
     back = msg.values[1]/1000
     left = msg.values[3]/1000
     right = msg.values[4]/1000
 
-    #inf=float('inf')
-    # scan.ranges = [inf,inf,inf,inf] #TODO - fix error with inf values
-    scan.ranges = [0,0,0,0]
+    inf=float('inf')
+    scan.ranges = [inf,inf,inf,inf] #Error with infs was fixed , invalid readings should be published as inf
+    # scan.ranges = [0,0,0,0]
 
     transform=None
     try:
@@ -38,7 +38,7 @@ def get_ranges(msg):
 
     if (front!=prev_front) :
 
-        scan.ranges[2]=front
+        scan.ranges[2]=front #assign value to laserscan message
 
         ##publish point in local coordinates
         point_front = PointStamped()
@@ -59,7 +59,7 @@ def get_ranges(msg):
 
     if (back != prev_back):
 
-        scan.ranges[0]=back
+        scan.ranges[0]=back #assign value to laserscan message
 
         point_back = PointStamped()
         point_back.header.seq = seq
@@ -80,7 +80,7 @@ def get_ranges(msg):
 
     if (left != prev_left):
 
-        scan.ranges[3]=left
+        scan.ranges[3]=left #assign value to laserscan message TODO - check why this is inverse right/left, should be scan.ranges[1]
 
         point_left = PointStamped()
         point_left.header.seq = seq
@@ -100,7 +100,7 @@ def get_ranges(msg):
 
     if (right != prev_right):
 
-        scan.ranges[1]=right
+        scan.ranges[1]=right #assign value to laserscan message TODO - check why this is inverse right/left, should be scan.ranges[3]
 
         point_right = PointStamped()
         point_right.header.seq = seq

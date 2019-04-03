@@ -65,7 +65,7 @@ def handler(cf):
     key = None
     global front, back, up, left, right, zrange
     dist_threshold=0.1
-    def_duration=1.8
+    def_duration=0.8 #1.8
 
     try:
         rospy.loginfo("keyboard controller.")
